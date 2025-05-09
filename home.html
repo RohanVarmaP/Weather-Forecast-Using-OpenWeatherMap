@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <input type="text" id="cityInput" placeholder="Enter City">
+        <button onclick="getWeather()">Get Weather</button>
+
+        <div id="weatherInfo">
+            <div id="city"></div>
+            <div id="temperature"></div>
+            <div id="description"></div>
+            <div id="humidity"></div>
+            <div id="windSpeed"></div>
+        </div>
+
+        <canvas id="myChart"></canvas>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
